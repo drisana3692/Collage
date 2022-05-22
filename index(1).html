@@ -1,0 +1,54 @@
+
+<html>
+
+    <head>
+        <title>My Selfie App</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+        <link href="style.css" rel="stylesheet">
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" type="text/javascript"></script>
+    
+    </head>
+    
+    <body>
+        <center>
+            <h1>Collage Web App </h1>
+            <marquee onmouseover="this.stop();" onmouseout="this.start();">-+- Developed by Drisana -+- </marquee>
+            <hr>
+            <h4>Please press allow as soon as popup comes. After you give a voice command</h4>
+    
+            <h3>Say "selfie" for Taking your selfie to make a Collage</h3>
+    
+            <button class="btn btn-lg btn-primary" onclick="start()">Start</button>
+            <h4>Press the Start Button!</h4>
+    
+            <label>Your webcam : </label>
+            <br>
+    
+            <label>Your Selfie Will Display Here: </label>
+            <br>
+            <div id="resultRow">
+                <div id="result1" class="column">
+                    <img src="https://i.pinimg.com/564x/00/3a/87/003a876a6f12e75a3b2677729d20659b.jpg">
+                </div>
+    
+                <div id="result2" class="column">
+                    <img src="https://i.pinimg.com/564x/7a/96/d2/7a96d2ffa619148fe3f6bfb32c6ad744.jpg">
+                </div>
+    
+                <div id="result3" class="column">
+                    <img src="https://i.pinimg.com/564x/0b/83/d8/0b83d8f0f80bf64d2619c89bb5654e4d.jpg">
+                </div>
+            </div>
+        </center>
+       
+    
+        <script src="main.js"></script>
+    </body>
+    
+    </html>
+    
